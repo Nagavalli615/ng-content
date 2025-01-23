@@ -6,3 +6,11 @@
   <p body>birthdate</p>
   <p footer>city</p>
 </app-card>
+
+<!-- programetically load view methode 1 -->
+<div *ngComponentOutlet="loadCompoent()"></div>
+
+<!-- programetically load view methode 2 -->
+<button (click)="loadcompoentbutton()">click for load compoent</button>
+<!-- To destroy ngComponentOutlet -->
+<button (click)="Destroycompoentbutton()">click for remove compoent</button>
